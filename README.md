@@ -1,7 +1,10 @@
-# Mini_Project_3
-[![CI/CD Pipeline](https://github.com/nogibjj/Peter_Min_Data_Engineering_Project3/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Peter_Min_Data_Engineering_Project3/actions/workflows/cicd.yml)
+# Mini_Project_4
 
-This is the README for my Mini Project 3 for the IDS706 - Data Engineering Systems class at Duke University.
+
+This is the README for my Mini Project 4 for the IDS706 - Data Engineering Systems class at Duke University.
+
+## Core Requirement: GitHub Actions Matrix Build for Multiple Python Versions
+To fulfill one of the core requirements, I set up a GitHub Actions workflow where I tested the build strategy out on 5 different Python3 versions from 3.7 to 3.11 on the CI/CD pipeline. This project is built on top of my [Mini Project 3](https://github.com/nogibjj/Peter_Min_Data_Engineering_Project3).
 
 ## Dataset
 The dataset comes from Kaggle, a public machine learning and data science community. It contains a CSV file of detailed information regarding the most-streamed Spotify songs in 2023. Link: https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023/data
@@ -18,6 +21,3 @@ For the visualization, I analyzed and visualized the 10 hottest artists by their
 Here is a glimpse into the summary statistics for certain columns from the dataset by running `dataframe.describe()`:
 
 ![alt text](summary_statistics.png)
-
-## Extra Credit
-If you examine the [one of the latest commits by myself](https://github.com/nogibjj/Peter_Min_Data_Engineering_Project3/actions/runs/10977799956/job/30480175871) in GitHub, you will see that both the HTML descriptive data analytics file from the `ProfileReport` and the markdown descriptive statistics file are built automatically at each push from the CI/CD pipeline. PDF file format is not supported by this package so HTML has to be used here.
